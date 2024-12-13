@@ -1,0 +1,196 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    color: #ff6347;
+  }
+  
+  h1, h2, h3 {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .cta-button {
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .cta-button:hover {
+    background: linear-gradient(45deg, #feb47b, #ff7e5f);
+    transform: translateY(-3px);
+  }
+  
+  header, footer {
+    text-align: center;
+    color: white;
+    padding: 40px 20px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Header Section */
+  header {
+    background-image: url('header-bg.jpg'); /* Replace with your image */
+    background-color: rgba(0, 123, 255, 0.6); /* Fallback color */
+    position: relative;
+    z-index: 1;
+  }
+  
+  header h1 {
+    font-size: 4em;
+    margin: 20px 0;
+    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  header p {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Features Section */
+  #features {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+    color: white;
+    text-align: center;
+  }
+  
+  #features h2 {
+    font-size: 2.8em;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .feature {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .feature h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #ff6347;
+  }
+  
+  .feature p {
+    font-size: 1.2em;
+  }
+  
+  .feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Call to Action Section */
+  #signup {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c); /* Gradient background */
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    background-image: url('signup-bg.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #signup h2 {
+    font-size: 2.8em;
+    margin-bottom: 15px;
+    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  #signup p {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #222;
+    background-image: url('footer-bg.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  footer p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  footer a {
+    color: #ff6347;
+  }
+  
+  footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2.5em;
+    }
+  
+    header p {
+      font-size: 1.1em;
+    }
+  
+    #features h2 {
+      font-size: 2.2em;
+    }
+  
+    .feature h3 {
+      font-size: 1.5em;
+    }
+  
+    .feature p {
+      font-size: 1em;
+    }
+  
+    #signup h2 {
+      font-size: 2.5em;
+    }
+  
+    #signup p {
+      font-size: 1.2em;
+    }
+  }
+  

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up - Smart Study Scheduler</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* General Styling */
+    body {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .signup-container {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+      color: white;
+    }
+
+    .signup-container h1 {
+      margin-bottom: 30px;
+      font-size: 2.5em;
+      color: #fff;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    }
+
+    .signup-container input[type="text"],
+    .signup-container input[type="email"],
+    .signup-container input[type="password"] {
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.1em;
+      box-sizing: border-box;
+      outline: none;
+    }
+
+    .signup-container input[type="submit"] {
+      background: linear-gradient(45deg, #ff7e5f, #feb47b);
+      color: white;
+      border: none;
+      padding: 15px;
+      border-radius: 30px;
+      font-size: 1.2em;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 15px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .signup-container input[type="submit"]:hover {
+      background: linear-gradient(45deg, #feb47b, #ff7e5f);
+      transform: translateY(-3px);
+    }
+
+    .signup-container p {
+      margin-top: 20px;
+      color: #fff;
+    }
+
+    .signup-container a {
+      color: #ff6347;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .signup-container a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="signup-container">
+    <h1>Sign Up</h1>
+    <form action="#" method="POST">
+      <input type="text" id="username" name="username" placeholder="Enter your username" required>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+      <input type="submit" value="Sign Up">
+    </form>
+    <p>Already have an account? <a href="login.html">Login</a></p>
+  </div>
+
+</body>
+</html>
